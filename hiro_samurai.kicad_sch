@@ -1,0 +1,350 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "26cdcb9f-3a2a-4bf6-a9eb-7e91faf701f6")
+	(paper "A4")
+	(title_block
+		(title "HIRO Samurai - Control Board")
+		(date "2024-06-03")
+		(rev "v1")
+		(company "electrodonkey")
+		(comment 1 "CC-BY-SA 4.0")
+	)
+	(lib_symbols)
+	(text_box "Product description\n\n- Sumo Robot Motherboard\n- 12V supply\n- Dual processor - STM32 and ESP32\n- JTAG pins breakout in special connector\n- Built-in USB for serial debugging\n\n"
+		(exclude_from_sim no)
+		(at 20.32 15.875 0)
+		(size 257.81 67.945)
+		(stroke
+			(width 1)
+			(type dash)
+		)
+		(fill
+			(type color)
+			(color 255 241 176 1)
+		)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "866c8ece-38f0-4e1b-bf5a-b7539457663d")
+	)
+	(text_box "Notes:\n\n- All resistors 0.0625W 1% unless otherwise specified\n- All capacitors are rated 50V X7R 10% unless otherwise specified\n"
+		(exclude_from_sim no)
+		(at 20.32 167.64 0)
+		(size 107.315 21.59)
+		(stroke
+			(width 1.1)
+			(type dash)
+		)
+		(fill
+			(type color)
+			(color 255 224 232 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "b1113d3f-8779-42c9-93fd-370512e0811d")
+	)
+	(text_box "Main Blocks"
+		(exclude_from_sim no)
+		(at 20.32 94.615 0)
+		(size 257.81 67.945)
+		(stroke
+			(width 1)
+			(type dash)
+		)
+		(fill
+			(type color)
+			(color 255 241 176 1)
+		)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "c8ecc1de-cf3a-4cea-8aae-44fc3d50e847")
+	)
+	(sheet
+		(at 99.695 104.775)
+		(size 12.7 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2ef813da-4662-43f2-8361-b0604f2986ed")
+		(property "Sheetname" "IOController"
+			(at 99.695 104.0634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_controller.kicad_sch"
+			(at 99.695 116.7896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hiro_samurai"
+				(path "/26cdcb9f-3a2a-4bf6-a9eb-7e91faf701f6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 104.14)
+		(size 12.7 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66353609-4a52-427d-bbbf-864a55f73df5")
+		(property "Sheetname" "IOConnectors"
+			(at 134.62 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO.kicad_sch"
+			(at 134.62 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hiro_samurai"
+				(path "/26cdcb9f-3a2a-4bf6-a9eb-7e91faf701f6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.265 104.14)
+		(size 15.24 10.795)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "862a635a-e1ad-457c-93d5-ffd177963e8f")
+		(property "Sheetname" "IMU"
+			(at 215.265 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU.kicad_sch"
+			(at 215.265 115.5196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hiro_samurai"
+				(path "/26cdcb9f-3a2a-4bf6-a9eb-7e91faf701f6"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 104.775)
+		(size 12.7 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c38369b-cae1-4217-80c4-6c599f2d9ecb")
+		(property "Sheetname" "Power"
+			(at 69.85 104.0634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 69.85 116.7896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hiro_samurai"
+				(path "/26cdcb9f-3a2a-4bf6-a9eb-7e91faf701f6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.195 104.14)
+		(size 12.7 10.795)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a8e82ad-9acd-4214-a92f-8be50e581bcf")
+		(property "Sheetname" "CAN"
+			(at 163.195 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 163.195 115.5196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hiro_samurai"
+				(path "/26cdcb9f-3a2a-4bf6-a9eb-7e91faf701f6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 104.775)
+		(size 12.7 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dbb2d76f-00b1-4a57-ad88-c4caaba80475")
+		(property "Sheetname" "ESP32"
+			(at 40.64 104.0634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 40.64 116.7896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hiro_samurai"
+				(path "/26cdcb9f-3a2a-4bf6-a9eb-7e91faf701f6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 104.14)
+		(size 12.7 10.795)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e9a577e9-3509-4d79-b789-abbe05d51907")
+		(property "Sheetname" "USBDebug"
+			(at 189.23 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_debug.kicad_sch"
+			(at 189.23 115.5196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hiro_samurai"
+				(path "/26cdcb9f-3a2a-4bf6-a9eb-7e91faf701f6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
