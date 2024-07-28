@@ -4561,7 +4561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hiro_samurai:XDCR_BHI260AP"
+		(property "Footprint" "hiro_sumo:XDCR_BHI260AP"
 			(at 211.455 102.87 0)
 			(effects
 				(font
